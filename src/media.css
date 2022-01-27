@@ -1,0 +1,664 @@
+/*@media screen and (max-width: 480px) {*/
+    @media only screen and (max-width: 480px) {
+        #introduction {
+          text-align: center;
+          background-color: var(--light-lavender);
+        }
+        header {
+          padding-top: 28px;
+        }
+        .logo {
+          margin-left: 18px;
+          font-size: 30px;
+        }
+        .navigation {
+          display: none;
+        }
+        .mobileNavigation {
+          display: flex;
+          background-color: var(--light-lavender);
+        }
+      
+        .header-navs {
+          display: flex;
+          width: 100%;
+          justify-content: space-evenly;
+        }
+        .mobileNavigation #menu {
+          display: flex;
+          /* flex-direction: column;*/
+          justify-content: center;
+        }
+      
+        #header nav ul {
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          top: 62px;
+          left: 0;
+          width: 100%;
+          background: var(--light-lavender);
+          border-top: 2px solid #fa7268d8;
+        }
+      
+        .mobileNavigation .hamburger {
+          position: absolute;
+          right: 5.5%;
+          top: 26%;
+          cursor: pointer;
+          opacity: 0.8;
+          color: whitesmoke;
+          background-color: #fa7268;
+          /*color: var(--lighter-blue);
+          background-color: var(--lighter-blue);*/
+          border-radius: 48%;
+          text-shadow: 3px 3px 4px rgba(141, 125, 125, 0.801);
+        }
+        .nav-link {
+          font-size: 20px;
+          color: whitesmoke;
+        }
+        .navbar-item {
+          font-weight: bolder;
+          font-size: 20px;
+          text-shadow: 2px 2px 4px #fa7268;
+          animation-delay: 50ms;
+        }
+        .container-intro {
+          padding-top: 4em;
+        }
+      
+        .p-intro {
+          font-size: 2rem;
+          color: var(--blue);
+        }
+      
+        #pname-intro {
+          font-size: 3.2rem;
+        }
+      
+        .img-home {
+          width: 95px;
+          height: 95px;
+        }
+      
+        .btn-home {
+          font-size: 20px;
+        }
+      
+        #about {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          padding-top: 55px;
+        }
+      
+        #about-left {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      
+        #p-aboutmain,
+        #p-abouttwo,
+        #p-about {
+          font-size: 0.8rem;
+        }
+      
+        #about-right {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          background-color: var(--light-lavender);
+          justify-items: center;
+          padding-right: 0;
+        }
+      
+        .img-stack {
+          height: 55px;
+          width: 55px;
+          padding: 15px;
+        }
+      
+        .emphasis,
+        .emphasis-two {
+          font-size: 0.8rem;
+        }
+      
+        #proyectsgrid {
+          display: grid;
+          grid-template-columns: 1fr;
+          margin-top: 0;
+        }
+      
+        .card {
+          width: 330px;
+          height: 200px;
+        }
+      
+        .section-title {
+          text-align: center;
+        }
+      
+        .section-title h1 {
+          font-size: 1.3rem;
+          padding-top: 80px;
+          padding-bottom: 0;
+          margin-bottom: 0;
+        }
+      
+        #contact {
+          align-items: center;
+          padding-top: 70px;
+        }
+      
+        .btn-form {
+          margin-bottom: 30px;
+        }
+        .section-form {
+          display: flex;
+          flex-direction: column-reverse;
+        }
+      
+        .sectionc-title h1 {
+          font-size: 1.5rem;
+          padding-top: 0px;
+          height: 40px;
+        }
+      
+        .div-form {
+          text-align: center;
+          margin-top: -65px;
+        }
+        .span-title {
+          margin-top: 40px;
+          font-size: 1.1rem;
+        }
+      
+        .span-info {
+          font-size: 1rem;
+        }
+      
+        span {
+          font-size: 15px;
+          line-height: 20px;
+        }
+      
+        .fab,
+        .fas {
+          font-size: 25px;
+        }
+      
+        .contact-link {
+          font-size: 1rem;
+          padding-left: 0px;
+        }
+        .form-contact {
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+        .input-form,
+        .input-message {
+          width: 100%;
+          font-size: 20px;
+        }
+      
+        .btn-form {
+          width: 100%;
+          font-size: 25px;
+        }
+      }
+      
+      @media only screen and (max-width: 768px) and (min-width: 481px) {
+        * {
+          font-size: 18px;
+        }
+      
+        .logo {
+          font-size: 40px;
+        }
+        #about {
+          flex-direction: column;
+          text-align: center;
+          padding-top: 85px;
+        }
+        #about-left {
+          padding-right: 40px;
+          padding-left: 40px;
+        }
+        #about-right {
+          padding-right: 0px;
+          align-self: center;
+          padding-top: 0px;
+        }
+        #p-aboutmain {
+          font-size: 35px;
+        }
+      
+        #p-about {
+          font-size: 30px;
+        }
+      
+        #p-abouttwo {
+          font-size: 30px;
+        }
+        .emphasis {
+          font-size: 35px;
+        }
+        .emphasis-two {
+          font-size: 30px;
+        }
+      
+        .img-stack {
+          height: 90px;
+          width: 90px;
+        }
+      
+        .section-title h1 {
+          font-size: 35px;
+          padding-top: 120px;
+          height: 80px;
+        }
+      
+        #proyectsgrid {
+          display: grid;
+          grid-template-columns: 1fr;
+          margin-top: 0;
+        }
+      
+        .card {
+          width: 520px;
+          height: 290px;
+        }
+      
+        .card-img {
+          width: 600px;
+          height: 350px;
+        }
+      
+        #contact {
+          align-items: center;
+        }
+      
+        .section-form {
+          display: flex;
+          flex-direction: column-reverse;
+          padding-top: 0px;
+        }
+      
+        .sectionc-title h1 {
+          font-size: 2rem;
+          padding-top: 40px;
+          height: 40px;
+        }
+      
+        .div-form {
+          text-align: center;
+        }
+        .span-title {
+          margin-top: 40px;
+          font-size: 2rem;
+        }
+      
+        .span-info {
+          font-size: 1.5rem;
+        }
+      
+        .fab,
+        .fas {
+          font-size: 25px;
+        }
+      
+        .contact-link {
+          font-size: 1.5rem;
+          padding-left: 0px;
+        }
+      
+        .input-form,
+        .input-message {
+          width: 100%;
+          font-size: 25px;
+        }
+      
+        .btn-form {
+          width: 100%;
+          font-size: 25px;
+        }
+      }
+      
+      @media only screen and (max-width: 1024px) and (min-width: 769px) {
+        * {
+          font-size: 18px;
+        }
+      
+        .container-intro {
+          padding-top: 8.5rem;
+        }
+        #pname-intro {
+          font-size: 4rem;
+        }
+      
+        .p-intro {
+          font-size: 3.5rem;
+        }
+      
+        .img-home {
+          width: 110px;
+          height: 110px;
+        }
+      
+        .btn-home {
+          font-size: 16px;
+        }
+      
+        header {
+          padding: 25px 0px 10px 0;
+        }
+        .nav-link {
+          font-size: 15px;
+        }
+      
+        .logo {
+          font-size: 35px;
+        }
+      
+        #about {
+          height: 500px;
+          padding-top: 60px;
+          padding-bottom: 20px;
+        }
+      
+        #p-aboutmain {
+          font-size: 35px;
+        }
+      
+        #p-about {
+          font-size: 23px;
+        }
+      
+        #p-abouttwo {
+          font-size: 42px;
+        }
+      
+        .img-stack {
+          height: 90px;
+          width: 90px;
+        }
+      
+        #about-right {
+          padding-right: 50px;
+          grid-template-columns: repeat(3, 1fr);
+          padding-top: 15px;
+        }
+      
+        #about-left {
+          padding-top: 30px;
+        }
+        .emphasis-two {
+          font-size: 22px;
+        }
+      
+        .section-title h1 {
+          font-size: 35px;
+          padding-top: 90px;
+          height: 80px;
+        }
+        #proyectsgrid {
+          grid-template-columns: 450px 450px;
+          padding-bottom: 20px;
+          justify-content: space-evenly;
+        }
+        .card {
+          width: 420px;
+          height: 220px;
+        }
+        .card-img {
+          width: 450px;
+          height: 250px;
+        }
+      
+        #contact {
+          padding-top: 80px;
+        }
+        .sectionc-title h1 {
+          font-size: 35px;
+          padding-top: 5px;
+        }
+      
+        .span-title {
+          font-size: 28px;
+        }
+      
+        .span-info {
+          font-size: 25px;
+          margin-top: 30px;
+        }
+      
+        .fab,
+        .fas {
+          font-size: 25px;
+        }
+      
+        .contact-link {
+          font-size: 28px;
+          padding-left: 25px;
+        }
+      
+        .input-form {
+          font-size: 18px;
+          width: 400px;
+        }
+      
+        .input-message {
+          font-size: 18px;
+          height: 80px;
+          width: 400px;
+        }
+      
+        .btn-form {
+          font-size: 20px;
+        }
+      
+        .section-form {
+          padding-top: 8px;
+        }
+      }
+      
+      /*@media screen and (max-width: 1366px) {*/
+      @media only screen and (max-width: 1366px) and (min-width: 1025px) {
+        * {
+          font-size: 18px;
+        }
+      
+        .container-intro {
+          padding-top: 8em;
+        }
+      
+        .img-home {
+          width: 100px;
+          height: 100px;
+        }
+        #pname-intro {
+          font-size: 5rem;
+        }
+      
+        #p-about {
+          font-size: 23px;
+        }
+        .p-intro {
+          font-size: 4rem;
+        }
+      
+        .logo {
+          font-size: 42px;
+        }
+      
+        header {
+          padding: 30px 0px 10px 0;
+        }
+      
+        .btn-home {
+          font-size: 20px;
+        }
+      
+        .nav-link {
+          font-size: 18px;
+        }
+      
+        #p-aboutmain {
+          font-size: 65px;
+        }
+      
+        #p-abouttwo {
+          font-size: 40px;
+        }
+      
+        #about {
+          height: 500px;
+          padding-top: 100px;
+          padding-bottom: 20px;
+        }
+      
+        .img-stack {
+          height: 100px;
+          width: 100px;
+        }
+      
+        .emphasis-two {
+          font-size: 25px;
+        }
+      
+        .section-title h1 {
+          font-size: 45px;
+          padding-top: 90px;
+          height: 80px;
+        }
+      
+        #proyectsgrid {
+          grid-template-columns: 600px 600px;
+          padding-bottom: 20px;
+        }
+      
+        .sectionc-title h1 {
+          font-size: 45px;
+          padding-top: 10px;
+        }
+      
+        .span-title {
+          font-size: 30px;
+        }
+      
+        .span-info {
+          font-size: 25px;
+          margin-top: 30px;
+        }
+      
+        .fab,
+        .fas {
+          font-size: 25px;
+        }
+      
+        .contact-link {
+          font-size: 28px;
+          padding-left: 25px;
+        }
+      
+        .input-form {
+          font-size: 18px;
+          width: 400px;
+        }
+      
+        .input-message {
+          font-size: 18px;
+          height: 80px;
+          width: 400px;
+        }
+      
+        .btn-form {
+          font-size: 20px;
+        }
+      
+        .section-form {
+          padding-top: 8px;
+        }
+      }
+      
+      /*@media screen and (max-width: 1536px) {*/
+      @media only screen and (max-width: 1536px) and (min-width: 1367px) {
+        * {
+          font-size: 20px;
+        }
+        .logo {
+          font-size: 55px;
+        }
+        .p-intro {
+          font-size: 4rem;
+        }
+        #pname-intro {
+          font-size: 4.5rem;
+        }
+        .img-home {
+          width: 130px;
+          height: 130px;
+        }
+        .nav-link {
+          font-size: 20px;
+        }
+        #about {
+          padding-top: 140px;
+          padding-bottom: 0px;
+        }
+        #p-about {
+          font-size: 32px;
+        }
+        #p-aboutmain {
+          font-size: 45px;
+        }
+        .img-stack {
+          height: 110px;
+          width: 110px;
+        }
+      
+        .section-title h1 {
+          font-size: 50px;
+        }
+      
+        #proyectsgrid {
+          padding-bottom: 35px;
+        }
+        .card {
+          width: 400px;
+          height: 200px;
+        }
+      
+        .sectionc-title h1 {
+          font-size: 50px;
+        }
+      
+        .input-form {
+          font-size: 30px;
+        }
+      
+        .input-message {
+          font-size: 30px;
+        }
+      
+        .btn-form {
+          font-size: 30px;
+        }
+      
+        .span-info {
+          font-size: 35px;
+          margin-top: 30px;
+        }
+      
+        .fab,
+        .fas {
+          font-size: 28px;
+        }
+      
+        .contact-link {
+          font-size: 30px;
+          padding-left: 25px;
+        }
+      }
+      
