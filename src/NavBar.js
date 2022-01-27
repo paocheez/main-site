@@ -10,7 +10,7 @@ function NavBar() {
     <>
       <header id="header">
         <span>
-          <Link className="logo" to="/">
+          <Link className="logo" to="/main-site">
             PC
           </Link>
         </span>
