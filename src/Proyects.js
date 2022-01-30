@@ -237,7 +237,7 @@ function Proyects() {
         <div className="card">
           <img
             className="card-img"
-            src="https://raw.githubusercontent.com/paocheez/ImageSourcePijamars/master/assets/citibank.PNG"
+            src="https://raw.githubusercontent.com/paocheez/ImageSourcePijamars/master/assets/citibank4.PNG"
             alt=""
           />
           <div className="card-links">
